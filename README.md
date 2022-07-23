@@ -13,12 +13,12 @@ Python (version 3.6.13) + PyTorch (version 1.10.2+cu102) <br>
 
 Network:<br>
 -------
- <div align=center><img src="https://github.com/tju-chengyijia/RDNet/blob/master/imgs/framework.pdf"></div><br>
+ <div align=center><img src="https://github.com/tju-chengyijia/RDNet/blob/master/imgs/framework.png"></div><br>
 Fig. 1. The architecture of our RDNet.<br>
 
 Results:<br>
 -------
- <div align=center><img src="https://github.com/tju-chengyijia/RDNet/blob/master/imgs/SOTA_fig.pdf"></div><br>
+ <div align=center><img src="https://github.com/tju-chengyijia/RDNet/blob/master/imgs/SOTA_fig.png"></div><br>
 Fig. 2. The recaptured screen images (top row), our demoiréing results (the second row), and the corresponding screenshot images (bottom row). Please zoom in the figure for better observation.<br>
 <br>
 
