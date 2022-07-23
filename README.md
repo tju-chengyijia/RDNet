@@ -7,8 +7,7 @@ Paper:<br>
 
 Environment:<br>
 --------
-Ubuntu 20.04.3 LTS <br>
-CUDA Version: 11.4 <br>
+Ubuntu 20.04.3 LTS + CUDA Version: 11.4 <br>
 Python (version 3.6.13) + PyTorch (version 1.10.2+cu102) <br>
 
 Network:<br>
