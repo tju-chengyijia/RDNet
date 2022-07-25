@@ -26,8 +26,14 @@ You can download our dataset from [MEGA](https://mega.nz/file/4WMwiLiD#6HyQxZsUg
 
 | Path | Number of file | File format | Image resolution |
 |  :----:  | :----:  |  :----:  | :----:  |
-| 单元格  | 单元格 | 单元格  | 单元格 |
-| 单元格  | 单元格 | 单元格  | 单元格 |
+| /data/trainset/gt_RAW_npz | 63180 | npz | $256\times256$ |
+| /data/trainset/gt_RGB | 63180 | png | $256\times256\times3$ |
+| /data/trainset/moire_RAW_npz | 63180 | npz | $256\times256$ |
+| /data/trainset/moire_RGB | 63180 | png | $256\times256\times3$ |
+| /data/testset/gt_RAW_npz | 408 | npz | $512\times512$ |
+| /data/testset/gt_RGB | 408 | png | $512\times512\times3$ |
+| /data/testset/moire_RAW_npz | 408 | npz | $512\times512$ |
+| /data/testset/moire_RGB | 408 | png | $512\times512\times3$ |
 
 #### Copyright ####
 
