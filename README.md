@@ -1,5 +1,10 @@
 # Recaptured Screen Image Demoiréing in Raw Domain (RDNet)
 This code is the official implementation of TMM paper "Recaptured Screen Image Demoiréing in Raw Domain".
+This repository contains official implementation of TMM paper "Recaptured Screen Image Demoiréing in Raw Domain", by Huanjing Yue, Yijia Cheng, Yan Mao, Cong Cao, and Jingyu Yang.
+
+<p align="center">
+  <img width="800" src="https://github.com/tju-chengyijia/RDNet/blob/main/imgs/framework.pdf">
+</p>
 
 Paper:<br>
 --------
