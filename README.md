@@ -22,7 +22,7 @@ This repository contains official implementation of TMM paper "Recaptured Screen
   <img width="600" src="https://github.com/tju-chengyijia/RDNet/blob/main/imgs/show_dataset.png">
 </p>
 
-You can download our dataset from [MEGA](https://mega.nz/file/4WMwiLiD#6HyQxZsUg-qgQ_L6eM5Nt5PiAIdrrmFLutS-tRoZ5XQ) or [Baidu Netdisk](https://pan.baidu.com/s/186tPHkRgr9eC9LpcRp59NA) (key: d6sz). We provide ground truth images and moiré images in Raw domain and sRGB domain respectively, which are placed in four folders gt_RAW_npz, gt_RGB, moire_RAW_npz and moire_RGB.
+You can download our dataset from [MEGA](https://mega.nz/file/4WMwiLiD#6HyQxZsUg-qgQ_L6eM5Nt5PiAIdrrmFLutS-tRoZ5XQ) or [Baidu Netdisk](https://pan.baidu.com/s/186tPHkRgr9eC9LpcRp59NA) (key: d6sz). We provide ground truth images and moiré images in Raw domain and sRGB domain respectively, which are placed in four folders gt_RAW_npz, gt_RGB, moire_RAW_npz and moire_RGB. The ground truth raw image is actually pseudo ground truth. The users can regenerate them by utilizing other RGB to raw inversing algorithms.
 
 #### Copyright ####
 
@@ -39,17 +39,24 @@ All of the Dataset are copyright by [Intelligent Imaging and Reconstruction Labo
 - NVIDIA GPU + CUDA 11.4 + CuDNN 11.3
 - Pytorch-GPU 1.10.2
 
+### Prepare
+
+- Download our dataset and place them in data folder according to the given path.
+- Download pre-trained model. All of our pre-trained model are placed in this RDNet project. We provide ISP model, classify model and demoiré model, which are placed in ISP_model folder, classify_model folder and Demoire_model folder.
+
 ### Test
 
-* Please download pre-trained model and test set.
-* change the path in `test.py`.
-* run: `python test.py`.
+- Test pretrained model on our testset.
+'''
+python test.py --gpu_id 0 --num_worker 0 --save_test_dir ./out/
+'''
 
 ### Train
 
-* Please download training set.
-* change the path in `train.py`.
-* run:  `python train.py`.
+- Train the demoiréing module.
+'''
+python train.py --gpu_id 0 --max_epoch 100 --num_worker 0 --patch_size 256 --batch_size 1
+'''
 
 ## Results
 
@@ -68,3 +75,11 @@ If you find our dataset or code helpful in your research or work, please cite ou
   publisher={IEEE}
 }
 ```
+## Acknowledgement
+
+Our work and implementations are inspired by following projects:<br/>
+[Unprocessing] (https://github.com/google-research/google-research/tree/master/unprocessing)<br/>
+[EDVR] (https://github.com/xinntao/EDVR)<br/>
+[SID] (https://github.com/cchen156/Learning-to-See-in-the-Dark)<br/>
+[DANet] (https://github.com/junfu1115/DANet)<br/>
+[CCNet] (https://github.com/speedinghzl/CCNet)<br/>
