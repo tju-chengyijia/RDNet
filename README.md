@@ -23,7 +23,7 @@ Fig. 2. Comparison with state-of-the-art demoiréing methods. The three images a
 
 Download dataset:<br>
 --------
-`Training set and test set:` https://pan.baidu.com/s/1Xn5YygDb9Eg5u5zL3plrsA (key:gpxd)<br>
+`Training set and test set:` https://pan.baidu.com/s/186tPHkRgr9eC9LpcRp59NA (key:d6sz)<br>
 
 Test:<br>
 -------
