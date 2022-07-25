@@ -53,7 +53,7 @@ All of the Dataset are copyright by [Intelligent Imaging and Reconstruction Labo
 
 ## Results
 
- <div align=center><img src="https://github.com/tju-chengyijia/RDNet/blob/main/imgs/SOTA_fig.png"></div><br>
+ <div align=center><img src="https://github.com/tju-chengyijia/RDNet/blob/main/imgs/sota_fig.png"></div><br>
 Fig. 2. Comparison with state-of-the-art demoiréing methods. The three images are from natural, webpage, and document images. The screen and phone camera combination used in capturing the third image is excluded from the training set construction.<br>
 <br>
 
