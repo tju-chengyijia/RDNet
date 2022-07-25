@@ -24,6 +24,11 @@ This repository contains official implementation of TMM paper "Recaptured Screen
 
 You can download our dataset from [MEGA](https://mega.nz/file/4WMwiLiD#6HyQxZsUg-qgQ_L6eM5Nt5PiAIdrrmFLutS-tRoZ5XQ) or [Baidu Netdisk](https://pan.baidu.com/s/186tPHkRgr9eC9LpcRp59NA) (key: d6sz). We provide ground truth images and moiré images in Raw domain and sRGB domain respectively, which are placed in four folders gt_RAW_npz, gt_RGB, moire_RAW_npz and moire_RGB. The ground truth raw image is actually pseudo ground truth. The users can regenerate them by utilizing other RGB to raw inversing algorithms.
 
+| Path | Number of file | File format | Image resolution |
+|  :----:  | :----:  |  :----:  | :----:  |
+| 单元格  | 单元格 | 单元格  | 单元格 |
+| 单元格  | 单元格 | 单元格  | 单元格 |
+
 #### Copyright ####
 
 The dataset is available for the academic purpose only. Any researcher who uses the dataset should obey the licence as below:
