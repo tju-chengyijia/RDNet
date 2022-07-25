@@ -47,16 +47,16 @@ All of the Dataset are copyright by [Intelligent Imaging and Reconstruction Labo
 ### Test
 
 - Test pretrained model on our testset.
-'''
+```
 python test.py --gpu_id 0 --num_worker 0 --save_test_dir ./out/
-'''
+```
 
 ### Train
 
 - Train the demoiréing module.
-'''
+```
 python train.py --gpu_id 0 --max_epoch 100 --num_worker 0 --patch_size 256 --batch_size 1
-'''
+```
 
 ## Results
 
