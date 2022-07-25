@@ -19,7 +19,7 @@ parser = argparse.ArgumentParser(description='Testing')
 parser.add_argument('--checkpoint_dir', dest='ckpt_dir', default='./Demoire_model/demoire_model_epoch43.pth', help='the model file to load')
 parser.add_argument('--gpu_id', dest='gpu_id', type=int, default=1, help='gpu id')
 parser.add_argument('--num_worker', dest='num_worker', type=int, default=0, help='number of workers when loading data')
-parser.add_argument('--test_path', dest='test_path', default='/media/sdb1/MY/RAW_img_dm/data/testset/testset6/', help='path of test data')
+parser.add_argument('--test_path', dest='test_path', default='./data/testset/', help='path of test data')
 parser.add_argument('--save_test_dir', dest='save_test_dir', default='./out/', help='storage path of output data')
 args = parser.parse_args()
 
