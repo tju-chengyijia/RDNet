@@ -12,7 +12,7 @@ Python (version 3.6.13) + PyTorch (version 1.10.2+cu102) <br>
 
 Network:<br>
 -------
- <div align=center><img src="https://github.com/tju-chengyijia/RDNet/blob/master/imgs/framework.pdf"></div><br>
+ <div align=center><img src="https://github.com/tju-chengyijia/RDNet/blob/main/imgs/framework.pdf"></div><br>
 Fig. 1. The network structure of the proposed RDNet.<br>
 
 Results:<br>
