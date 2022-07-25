@@ -62,5 +62,11 @@ Fig. 2. Comparison with state-of-the-art demoiréing methods. The three images a
 If you find our dataset or code helpful in your research or work, please cite our paper:
 
 ```
-未完待续
+@article{yue2022recaptured,
+  title={Recaptured Screen Image Demoiréing in Raw Domain},
+  author={Yue, Huanjing and Cheng, Yijia and Mao, Yan and Cao, Cong and Yang, Jingyu},
+  journal={IEEE Transactions on Multimedia},
+  year={2022},
+  publisher={IEEE}
+}
 ```
