@@ -1,6 +1,6 @@
 # Recaptured Screen Image Demoiréing in Raw Domain (RDNet)
-This code is the official implementation of TMM paper "Recaptured Screen Image Demoiréing in Raw Domain".
-This repository contains official implementation of TMM paper "Recaptured Screen Image Demoiréing in Raw Domain", by Huanjing Yue, Yijia Cheng, Yan Mao, Cong Cao, and Jingyu Yang.
+
+This repository contains official implementation of our TMM paper "Recaptured Screen Image Demoiréing in Raw Domain", by Huanjing Yue, Yijia Cheng, Yan Mao, Cong Cao, and Jingyu Yang.
 
 <p align="center">
   <img width="800" src="https://github.com/tju-chengyijia/RDNet/blob/main/imgs/framework.png">
@@ -28,7 +28,7 @@ We provide ground truth images and moiré images in raw domain and sRGB domain r
 
 The details of our dataset are shown in the following table.
 
-| Path | Number of file | File format | Image resolution |
+| Path | Number of File | File Format | Patch Resolution |
 |  :----:  | :----:  |  :----:  | :----:  |
 | /data/trainset/gt_RAW_npz | 63180 | npz | $256\times256$ |
 | /data/trainset/gt_RGB | 63180 | png | $256\times256\times3$ |
