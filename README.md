@@ -93,8 +93,6 @@ If you find our dataset or code helpful in your research or work, please cite ou
 ## Acknowledgement
 
 Our work and implementations are inspired by following projects:<br/>
-[Unprocessing] (https://github.com/google-research/google-research/tree/master/unprocessing)<br/>
-[EDVR] (https://github.com/xinntao/EDVR)<br/>
-[SID] (https://github.com/cchen156/Learning-to-See-in-the-Dark)<br/>
-[DANet] (https://github.com/junfu1115/DANet)<br/>
-[CCNet] (https://github.com/speedinghzl/CCNet)<br/>
+[RViDeNet] (https://github.com/cao-cong/RViDeNet)<br/>
+[AMNet] (https://github.com/tju-maoyan/AMNet)<br/>
+[MBCNN-torch] (https://github.com/JunghyunKim242/MBCNN_torch_demoire)<br/>
