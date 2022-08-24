@@ -7,8 +7,7 @@ This repository contains official implementation of our TMM paper "Recaptured Sc
 </p>
 
 ## Paper
-
-未完待续<br>
+[IEEE](https://ieeexplore.ieee.org/document/9855881)
 
 ## Demo Video
 
