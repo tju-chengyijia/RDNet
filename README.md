@@ -92,6 +92,6 @@ If you find our dataset or code helpful in your research or work, please cite ou
 ## Acknowledgement
 
 Our work and implementations are inspired by following projects:<br/>
-[RViDeNet] (https://github.com/cao-cong/RViDeNet)<br/>
-[AMNet] (https://github.com/tju-maoyan/AMNet)<br/>
-[MBCNN-torch] (https://github.com/JunghyunKim242/MBCNN_torch_demoire)<br/>
+[RViDeNet](https://github.com/cao-cong/RViDeNet)<br/>
+[AMNet](https://github.com/tju-maoyan/AMNet)<br/>
+[MBCNN-torch](https://github.com/JunghyunKim242/MBCNN_torch_demoire)<br/>
